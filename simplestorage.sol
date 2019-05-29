@@ -11,7 +11,7 @@ contract simplestorage {
     storedData = x;
   }
 
-  function get() view returns (uint retVal) {
+  function get() public view returns (uint retVal) {
     return storedData;
   }
 }
